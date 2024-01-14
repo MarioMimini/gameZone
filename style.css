@@ -1,0 +1,65 @@
+h1{
+  color: red;
+}
+body{
+  background-image: url("image/bg1.jpg");
+  background-size: 100%;
+}
+.container{
+ 
+  width: 44%;
+  margin-left: 28%;
+  margin-top: 7.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 220px;
+  gap: 40px;
+}
+.game1{
+ background-color:rgb(98, 173, 231);
+ display: inline-block;
+ border-radius: 15px;
+ transition: 0.5s;
+}
+
+.flex-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.game2{
+  background-color: rgb(98, 173, 231);
+  display: inline-block;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.game3{
+  background-color: rgb(98, 173, 231);
+  display: inline-block;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.play-button{
+  background-color: rgb(255, 255, 255);
+  color: rgb(98, 173, 231);
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  width: 100px;
+  border-radius: 15px;
+  padding: 5px;
+  border-color: rgb(98, 173, 231);
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+.play-button:hover{
+box-shadow: -3px 3px 8px rgb(224, 129, 225);
+}
+.play-button:active{
+  background-color: rgb(242, 173, 244);
+  color: rgb(0, 0, 0);
+}
+.game1:hover,.game2:hover,.game3:hover{
+  box-shadow: 1px 2px 12px 2px white;
+}
